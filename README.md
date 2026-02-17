@@ -86,6 +86,8 @@ FarmPulse is a smart agriculture platform that provides real-time monitoring, pr
 Available on innovatiana:
 
 https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
+FarmPulse_data:
+https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=sharing
 
 ---
 
