@@ -89,39 +89,6 @@ https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
 
 ---
 
-## FarmPulse Project Structure
-
-FarmPulse/
-│
-├── data/
-│   ├── raw/                     # Original datasets
-│   │   └── FarmPulse_Tunisia_Agriculture_Dataset.csv
-│   ├── processed/               # manually cleaned datasets
-│   
-│
-├── notebooks/                   # Jupyter Notebooks for analysis
-│   ├── 01_Data_Exploration.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-├   ├── 03_Yield_Prediction.ipynb
-│   └── reports/                     # Charts, plots, correlation heatmaps
-│       ├── figures/
-│       └── tables/
-│
-├── src/                         # Python scripts / modules
-│   ├── data_processing.py       # Functions to clean, preprocess data, build pipeline
-│   ├── feature_engineering.py   # Functions for engineered features (Soil_Score, Climate_Risk)
-│   ├── ml_models.py             # Train / Evaluate ML models (RandomForest, XGBoost)
-│   └── utils.py                 # Helper functions (plotting, metrics, saving/loading)
-│
-├── models/                      # Saved Pipeline & ML models
-│   ├── preprocessing_pipeline.pkl
-│   └── yield_model.pkl
-│
-│
-├── README.md                    # Project description
-└── .gitignore
-
-
 
 
 
