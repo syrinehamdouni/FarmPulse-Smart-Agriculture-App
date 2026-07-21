@@ -162,7 +162,7 @@ https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=shari
 #  Application Preview
 
 <p align="center">
-  <img src="FarmPulse.png" alt="FarmPulse Logo" width="220"/>
+  <img src="FarmPulse.png" alt="FarmPulse Logo" width="600"/>
 </p>
 
 ---
