@@ -14,9 +14,9 @@ Smart Agriculture Platform powered by <b>Artificial Intelligence (AI)</b> and <b
 
 Watch the application demo:
 
-https://github.com/<your-username>/<your-repository>/assets/clideo_editor_aecbd1df0c0b4c03a87a69d8cd6d2ef6.mp4
+https://github.com/syrinehamdouni/FarmPulse-Smart-Agriculture-App/clideo_editor_aecbd1df0c0b4c03a87a69d8cd6d2ef6.mp4
 
-> **Note:** Replace the link above with your uploaded GitHub video (or simply drag and drop the `.mp4` into the README while editing on GitHub).
+
 
 ---
 
@@ -55,7 +55,7 @@ It empowers them to:
 
 #  Key Features
 
-- 📊 **Interactive Dashboard**
+-  **Interactive Dashboard**
   - Daily crop monitoring
   - Resource usage
   - Disease alerts
@@ -121,7 +121,7 @@ Farmers receive real-time recommendations for:
 
 ---
 
-# 📱 User Interface
+#  User Interface
 
 - Dashboard
 - Operations Tracking
@@ -159,14 +159,14 @@ https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=shari
 
 ---
 
-# 📸 Application Preview
+#  Application Preview
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/eacbdc10-e504-411a-af6f-4be87e8720c0" width="900">
+  <img src="FarmPulse.png" alt="FarmPulse Logo" width="220"/>
 </p>
 
 ---
 
-# 📄 License
+#  License
 
 MIT License © 2026 FarmPulse Team
