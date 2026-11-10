@@ -1,263 +1,169 @@
+# FarmPulse – Smart Agriculture App
 
 <p align="center">
   <img src="FarmPulse.png" alt="FarmPulse Logo" width="220"/>
 </p>
 
-<h1 align="center"> FarmPulse – Smart Agriculture App</h1>
+<h3 align="center">Artificial Intelligence and Business Intelligence for Smart Agriculture</h3>
 
 <p align="center">
-Smart Agriculture Platform powered by <b>Artificial Intelligence (AI)</b> and <b>Business Intelligence (BI)</b>.
+  An intelligent agricultural platform designed to support Tunisian farmers through predictive analytics, automated disease detection, and data-driven decision-making.
 </p>
 
 ---
 
-##  Demo
+## Application Demo
 
-Watch the application demo:
-
-https://drive.google.com/file/d/1d7_CrjcyUCUIua879NJ9sO3eBsSW82wf/view?usp=sharing
-
-
-
----
-
-# FarmPulse – Smart Agriculture App
-
-**FarmPulse** is a cutting-edge smart agriculture application designed for Tunisian farmers. It combines **Artificial Intelligence (AI)** and **Business Intelligence (BI)** to help farmers monitor crops, optimize resources, and increase productivity sustainably.
+<p align="center">
+  <a href="https://drive.google.com/file/d/1d7_CrjcyUCUIua879NJ9sO3eBsSW82wf/view?usp=sharing">
+    Watch Application Demo
+  </a>
+</p>
 
 ---
 
-# Table of Contents
+## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [AI & ML Integration](#ai--ml-integration)
-4. [Business Intelligence (BI)](#business-intelligence-bi)
-5. [User Interface](#user-interface)
-6. [Technology Stack](#technology-stack)
-7. [Installation & Setup](#installation--setup)
-8. [Dataset](#dataset)
-9. [License](#license)
-
----
-
-#  Project Overview
-
-FarmPulse is a smart agriculture platform that provides real-time monitoring, predictive analytics, and actionable insights to farmers.
-
-It empowers them to:
-
--  Detect diseases and pests early
--  Optimize irrigation and fertilizer usage
--  Track crop growth and productivity
--  Reduce losses and improve sustainability
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
+- [Business Intelligence](#business-intelligence)
+- [Technology Stack](#technology-stack)
+- [Datasets](#datasets)
+- [Application Preview](#application-preview)
+- [License](#license)
 
 ---
 
-#  Key Features
+## Project Overview
 
--  **Interactive Dashboard**
-  - Daily crop monitoring
-  - Resource usage
-  - Disease alerts
-  - Productivity metrics
+FarmPulse is an intelligent agriculture application developed to support Tunisian farmers by combining Artificial Intelligence (AI), Machine Learning (ML), and Business Intelligence (BI).
 
--  **AI-Powered Disease Detection**
-  - Plant classification (Healthy / Diseased)
-  - Smart recommendations
+The platform transforms agricultural data into actionable insights, enabling farmers to monitor crop conditions, predict yields, detect plant diseases, and optimize agricultural resources.
 
--  **Farmer & Field Segmentation**
-  - Unsupervised ML clustering
-  - Performance analysis
-
-- **Business Intelligence Reports**
-  - Interactive charts
-  - KPIs
-  - PDF reports
-
--  **Cross-Platform Mobile App**
-  - Flutter (Android & iOS)
-
--  **Real-Time Notifications**
-  - Irrigation alerts
-  - Disease risk
-  - Crop management reminders
+The main objective is to improve agricultural productivity, reduce resource waste, and promote sustainable farming practices.
 
 ---
 
-#  AI & ML Integration
+## Key Features
+
+| Feature | Description |
+|---|---|
+| Agricultural Dashboard | Centralized monitoring of crop performance, resource consumption, and agricultural KPIs. |
+| Plant Disease Detection | Automated classification of plant diseases from crop images using Deep Learning. |
+| Crop Yield Prediction | Prediction of agricultural production based on weather, soil conditions, and historical data. |
+| Smart Irrigation | Intelligent irrigation recommendations based on environmental conditions and crop requirements. |
+| Farmer Segmentation | Clustering farmers and agricultural fields using unsupervised Machine Learning. |
+| Analytics and Reporting | Interactive visualizations, performance indicators, and PDF reports. |
+| Smart Notifications | Alerts for irrigation, disease risks, and agricultural activities. |
+| Resource Management | Monitoring water and fertilizer consumption to support sustainable agriculture. |
+
+---
+
+## Artificial Intelligence and Machine Learning
+
+FarmPulse integrates supervised and unsupervised learning techniques to provide intelligent agricultural services.
 
 ### Supervised Learning
 
-- Disease detection from crop images
-- Crop yield prediction using:
-  - Weather
-  - Soil conditions
-  - Historical production
+**Plant Disease Detection**
+- Image classification using Deep Learning.
+- Identification of healthy and diseased plants.
+- Automated plant health diagnosis.
+
+**Crop Yield Prediction**
+- Predictive modeling using historical agricultural data.
+- Weather and soil condition analysis.
+- Agricultural productivity forecasting.
 
 ### Unsupervised Learning
 
-- Farmer segmentation
-- Crop behavior analysis
-- Productivity anomaly detection
+- Farmer and field segmentation using clustering algorithms.
+- Agricultural behavior analysis.
+- Identification of productivity patterns.
+- Detection of agricultural performance anomalies.
 
-### Integration
-
-All AI insights are synchronized with the BI dashboard to provide actionable recommendations.
-
----
-
-#  Business Intelligence (BI)
-
--  Descriptive Analytics
--  Predictive Analytics
--  Diagnostic Analytics
-- Decision Support
-
-Farmers receive real-time recommendations for:
-
-- Irrigation
-- Fertilization
-- Harvesting
+AI models are integrated into the backend through APIs, allowing predictions and recommendations to be accessed directly from the mobile application.
 
 ---
 
-#  User Interface
+## Business Intelligence
 
-- Dashboard
-- Operations Tracking
-- Disease Detection
-- Analytics & Reports
-- Farmer Segmentation
-- Sustainability Management
-- Settings & Help
+The Business Intelligence component transforms agricultural information into meaningful indicators to support strategic and operational decisions.
+
+| Analytics | Purpose |
+|---|---|
+| Descriptive Analytics | Monitor agricultural productivity, crop health, and resource consumption. |
+| Diagnostic Analytics | Identify factors influencing crop performance and agricultural efficiency. |
+| Predictive Analytics | Forecast crop yields and anticipate potential agricultural risks. |
+| Decision Support | Provide insights for irrigation, fertilization, and harvesting decisions. |
+
+### Key Performance Indicators
+
+- Crop yield per hectare.
+- Water consumption.
+- Agricultural productivity.
+- Plant disease indicators.
+- Field performance.
+- Resource utilization.
 
 ---
 
-# 🛠 Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
-|--------|--------------|
-| Frontend | Flutter |
-| Backend | Python + FastAPI |
+|---|---|
+| Frontend | Flutter, Dart |
+| Backend | Python, FastAPI |
 | Database | PostgreSQL |
-| AI/ML | TensorFlow, PyTorch, Scikit-learn |
-| BI | Flutter Charts, Metabase, Apache Superset |
+| Deep Learning | TensorFlow, PyTorch |
+| Machine Learning | Scikit-learn |
+| Business Intelligence | Flutter Charts, Metabase, Apache Superset |
+| Development Tools | Git, GitHub, Visual Studio Code |
 
 ---
 
-#  Dataset
+## Datasets
 
-###  PlantVillage — Disease Detection
+FarmPulse uses agricultural datasets to develop and evaluate its Machine Learning and Deep Learning models.
 
-Plant Disease Dataset (Image Classification)
+### 1. PlantVillage – Plant Disease Classification
 
-https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
+PlantVillage is a publicly available image dataset designed for plant disease recognition and classification.
 
+**Dataset characteristics:**
+- 54,306 images of healthy and diseased plant leaves.
+- 14 different crop species.
+- 38 classification categories.
+- JPEG image format.
+- Annotations identifying crop species and disease categories.
 
-# FarmPulse – Smart Agriculture App
+**Main application:** Training and evaluating Deep Learning models for automated plant disease classification.
 
-**FarmPulse** is a cutting-edge smart agriculture application designed for Tunisian farmers. It combines **Artificial Intelligence (AI)** and **Business Intelligence (BI)** to help farmers monitor crops, optimize resources, and increase productivity sustainably.  
+**Sources:**
+- [PlantVillage Dataset – Innovatiana](https://www.innovatiana.com/en/datasets/plantvillage)
+- [Original PlantVillage Dataset – GitHub](https://github.com/spMohanty/PlantVillage-Dataset)
 
----
+### 2. FarmPulse Agricultural Dataset
 
-## **Table of Contents**
-1. [Project Overview](#project-overview)  
-2. [Key Features](#key-features)  
-3. [AI & ML Integration](#ai--ml-integration)  
-4. [Business Intelligence (BI)](#business-intelligence-bi)  
-5. [User Interface](#user-interface)  
-6. [Technology Stack](#technology-stack)  
-7. [Installation & Setup](#installation--setup)
-8. [Dataset](#Dataset)
- 
+Project-specific agricultural dataset provided for FarmPulse model development and agricultural analysis.
 
----
+**Dataset access:**
 
-## **Project Overview**
-FarmPulse is a smart agriculture platform that provides real-time monitoring, predictive analytics, and actionable insights to farmers. It empowers them to:
-- Detect diseases and pests early  
-- Optimize irrigation and fertilizer usage  
-- Track crop growth and productivity  
-- Reduce losses and improve sustainability  
+[Download FarmPulse Dataset – Google Drive](https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=sharing)
 
 ---
 
-## **Key Features**
-- **Interactive Dashboard**: Daily crop monitoring, resource usage, disease alerts, and productivity metrics.  
-- **AI-Powered Disease Detection**: Supervised ML to classify plants (Healthy / Diseased) and provide actionable recommendations.  
-- **Farmer & Field Segmentation**: Unsupervised ML clusters farmers by performance, crop type, and field characteristics.  
-- **Business Intelligence Reports**: Interactive charts, KPIs, and PDF reports for decision-making.  
-- **Cross-Platform Mobile App**: Flutter app for Android & iOS with smooth navigation and responsive design.  
-- **Real-Time Notifications**: Alerts for irrigation, disease risk, and crop management actions.  
-
----
-
-## **AI & ML Integration**
-- **Supervised Learning**:  
-  - Disease detection from crop images  
-  - Predicting crop yield based on historical data, weather, and soil conditions  
-
-- **Unsupervised Learning**:  
-  - Farmer segmentation by crop type, performance, and behavior  
-  - Detection of unusual patterns in field productivity  
-
-- **Integration**: All AI insights are sent to the BI dashboard for actionable recommendations.  
-
----
-
-## **Business Intelligence (BI)**
-- **Descriptive Analytics**: Track field performance, water usage, fertilizer application, and crop health.  
-- **Predictive Analytics**: Forecast crop yield, disease outbreaks, and resource needs.  
-- **Diagnostic Analytics**: Identify causes of low productivity or high disease incidence.  
-- **Decision Support**: Provide farmers with real-time guidance for irrigation, fertilization, and harvesting.  
-
----
-
-## **User Interface**
-- **Dashboard Main Page**: Overview of crops, alerts, productivity metrics  
-- **Operations Tracking**: Record planting, watering, and harvesting activities  
-- **Disease & Pest Detection**: View affected plants and AI recommendations  
-- **Analytics & Reports**: Charts, graphs, and performance summaries  
-- **Farmer Segmentation**: Performance clusters and improvement suggestions  
-- **Resource & Sustainability Management**: Track water, fertilizer, and recycled waste usage  
-- **Settings & Help**: User preferences, field management, and tutorials  
-
-
-
----
-
-## **Technology Stack**
-- **Frontend**: Flutter (Android & iOS)  
-- **Backend**: Python + FastAPI (AI processing, APIs)  
-- **Database**: PostgreSQL (structured data)  
-- **AI/ML Libraries**: TensorFlow, PyTorch, scikit-learn  
-- **BI Tools**: Embedded charts in Flutter, optional Metabase/Superset dashboards  
-
-
----
-
-## **Dataset**
-###  PlantVillage → Disease Detection
-   Plant Disease Dataset (Image Classification)
-Available on innovatiana:
-
-https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
-https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=sharing
-
----
-
-#  Application Preview
+## Application Preview
 
 <p align="center">
-  <img src="FarmPulse.png" alt="FarmPulse Logo" width="600"/>
+  <img src="FarmPulse.png" alt="FarmPulse Application Preview" width="600"/>
 </p>
 
 ---
 
-
-
 ## License
 
-MIT License © 2026 FarmPulse Team
->>>>>>> 18ff315fd903c7c7c92edc15a77bf60b7255358c
+MIT License
+
+Copyright © 2026 FarmPulse Team.
