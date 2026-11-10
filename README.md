@@ -14,7 +14,7 @@ Smart Agriculture Platform powered by <b>Artificial Intelligence (AI)</b> and <b
 
 Watch the application demo:
 
-https://github.com/syrinehamdouni/FarmPulse-Smart-Agriculture-App/clideo_editor_aecbd1df0c0b4c03a87a69d8cd6d2ef6.mp4
+https://drive.google.com/file/d/1d7_CrjcyUCUIua879NJ9sO3eBsSW82wf/view?usp=sharing
 
 
 
