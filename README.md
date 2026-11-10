@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <p align="center">
   <img src="FarmPulse.png" alt="FarmPulse Logo" width="220"/>
 </p>
@@ -154,27 +154,7 @@ Plant Disease Dataset (Image Classification)
 
 https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
 
-### FarmPulse Dataset
 
-=======
-<<<<<<< HEAD
-# bi_ai
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # FarmPulse – Smart Agriculture App
 
 **FarmPulse** is a cutting-edge smart agriculture application designed for Tunisian farmers. It combines **Artificial Intelligence (AI)** and **Business Intelligence (BI)** to help farmers monitor crops, optimize resources, and increase productivity sustainably.  
@@ -263,13 +243,10 @@ FarmPulse is a smart agriculture platform that provides real-time monitoring, pr
 Available on innovatiana:
 
 https://www.innovatiana.com/en/datasets/plantvillage?utm_source=chatgpt.com
-FarmPulse_data:
->>>>>>> 3df6e2ef (Update FarmPulse Flutter application)
 https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=sharing
 
 ---
 
-<<<<<<< HEAD
 #  Application Preview
 
 <p align="center">
@@ -278,18 +255,9 @@ https://drive.google.com/file/d/1of-Kg5QrXlY16CPM_o1sXoPmZg-lLI9P/view?usp=shari
 
 ---
 
-#  License
-
-MIT License © 2026 FarmPulse Team
-=======
-
-
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/eacbdc10-e504-411a-af6f-4be87e8720c0" />
 
 
 ## License
 
 MIT License © 2026 FarmPulse Team
 >>>>>>> 18ff315fd903c7c7c92edc15a77bf60b7255358c
->>>>>>> 3df6e2ef (Update FarmPulse Flutter application)
