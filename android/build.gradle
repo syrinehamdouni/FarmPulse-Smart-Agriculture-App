@@ -1,0 +1,51 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+// SDK versions
+ext {
+    flutter = [
+            compileSdkVersion: 36,
+            minSdkVersion    : 21,
+            targetSdkVersion : 36,
+    ]
+}
+
+// Apply SDK versions to all Android modules
+subprojects {
+
+    plugins.withId("com.android.application") {
+        android {
+            compileSdkVersion rootProject.ext.flutter.compileSdkVersion
+
+            defaultConfig {
+                minSdkVersion rootProject.ext.flutter.minSdkVersion
+                targetSdkVersion rootProject.ext.flutter.targetSdkVersion
+            }
+        }
+    }
+
+    plugins.withId("com.android.library") {
+        android {
+            compileSdkVersion rootProject.ext.flutter.compileSdkVersion
+
+            defaultConfig {
+                minSdkVersion rootProject.ext.flutter.minSdkVersion
+                targetSdkVersion rootProject.ext.flutter.targetSdkVersion
+            }
+        }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

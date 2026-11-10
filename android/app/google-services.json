@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "99308630425",
+    "firebase_url": "https://farmpulse-45a83-default-rtdb.firebaseio.com",
+    "project_id": "farmpulse-45a83",
+    "storage_bucket": "farmpulse-45a83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99308630425:android:3b07b5f88fb4d877a12308",
+        "android_client_info": {
+          "package_name": "com.example.bi_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99308630425-ptlc1sjc3svp0ih4go2c88qkd0baol7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bi_ai",
+            "certificate_hash": "63a93e0a1b344420bcfcad77f23393dbae050745"
+          }
+        },
+        {
+          "client_id": "99308630425-11ac4kgshe3cu5qu4aq5dja7rtpo4eru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAL66egKctuoX4keLcBd-n3UaSPhly_7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99308630425-11ac4kgshe3cu5qu4aq5dja7rtpo4eru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "99308630425-hmt9cp0sl9pluj3g07ubt8agcdf11jfb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.biAi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
